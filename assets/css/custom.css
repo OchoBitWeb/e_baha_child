@@ -3,3 +3,40 @@
  *
  * @package 	e-baha
  */
+/* Blockquote
+--------------------------------------------- */
+blockquote,
+blockquote.wp-block-quote {
+  background: transparent;
+  text-align: left; }
+  blockquote p,
+  blockquote.wp-block-quote p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400; }
+  blockquote cite,
+  blockquote .wp-block-quote__citation,
+  blockquote.wp-block-quote cite,
+  blockquote.wp-block-quote .wp-block-quote__citation {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 12px;
+    text-transform: uppercase; }
+  blockquote p:last-of-type,
+  blockquote.wp-block-quote p:last-of-type {
+    margin-bottom: 0; }
+
+/* Pull Quote
+--------------------------------------------- */
+.wp-block-pullquote {
+  border: none;
+  padding: 0; }
+  .wp-block-pullquote blockquote {
+    border-left: 0;
+    padding: 16px 0;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto; }
+  .wp-block-pullquote.alignleft blockquote, .wp-block-pullquote.alignright blockquote {
+    max-width: 100%; }
